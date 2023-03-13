@@ -6,7 +6,7 @@ if(isset($_POST['submit_val']))
 
 
 // create an API client instance
-$client = new \Pdfcrowd\HtmlToPdfClient("hamzatechy", "4ba7e41b76051a8a36443a84450b9183");
+$client = new \Pdfcrowd\HtmlToPdfClient("xxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxx");
 $fd = fopen($_SERVER['DOCUMENT_ROOT'] . "/test/myText.pdf",'wb');
 // convert a web page and store the generated PDF into a variable
 $pdf = $client->convertString('<!DOCTYPE html>
